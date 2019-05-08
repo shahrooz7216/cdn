@@ -1,0 +1,119 @@
+/* Category Drop Menus */
+
+.category-dropdown > div {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.category-dropdown > div.rightChild {
+  margin-right: 50px;
+  float: right;
+}
+
+.category-dropdown .cat-dropdown-toggle {
+  color: #4e4e4e;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.category-dropdown .cat-dropdown-toggle i {
+  color: #b4b4b4;
+  margin: 0 7px;
+  font-weight: bold;
+  top: 1px;
+  position: relative;
+}
+
+.category-dropdown .dropdown-menu {
+  border: none;
+  max-width: 200px;
+  box-shadow: 0 0 14px 0px #cccccc;
+  border-radius: 0;
+  top: 15px !important;
+}
+
+.category-dropdown .dropdown-menu ul {
+  padding: 20px;
+}
+
+.category-dropdown .dropdown-menu ul li {
+  border: none;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.category-dropdown .dropdown-menu ul li.dropdown-menu-color {
+  border: none;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.category-dropdown .dropdown-menu ul li span {
+  background: #d6d6d6;
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  /*box-shadow: 0 0 18px 6px rgba(0, 0, 0, 0.16);*/
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+.category-dropdown .dropdown-menu ul li:nth-child(2) span {
+  background: #2c7f91;
+}
+
+.category-dropdown .dropdown-menu ul li:nth-child(3) span {
+  background: #ebc6ab;
+}
+
+.category-dropdown .dropdown-menu ul li:nth-child(4) span {
+  background: #cc3734;
+}
+
+.category-dropdown .dropdown-menu ul li:nth-child(5) span {
+  background: #e2b26b;
+}
+
+.category-dropdown .dropdown-menu ul li:nth-child(6) span {
+  background: linear-gradient(#6bbde2, #e66d7c);
+}
+
+.category-dropdown.cat-parts > div:nth-child(1) .dropdown-menu ul li a {
+  margin-left: 15px;
+  transition: all 0.3s;
+  overflow: auto;
+  width: 200px;
+  left: -22px;
+  position: relative;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.category-dropdown .dropdown-menu ul li a {
+}
+
+.category-dropdown.cat-parts > div:nth-child(1) .dropdown-menu ul li a i {
+  left: -21px;
+  position: relative;
+  color: #fff !important;
+  top: -1px;
+}
+
+.category-dropdown .dropdown-menu ul li a i {
+  color: #4e4e4e !important;
+  z-index: 99;
+  display: inline-block;
+  font-size: 12px;
+  left: -7px;
+  position: relative;
+}
+
+.category-dropdown .dropdown-menu ul li a:hover,
+.category-dropdown .dropdown-menu ul li a:focus {
+  background: unset;
+  color: #7c7c7c;
+}

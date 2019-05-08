@@ -1,0 +1,107 @@
+/* Category sort part */
+
+/* controllers */
+
+.category-main {
+  margin-top: 20px;
+}
+
+.category-main .cat-filter-wrapper .sort-by,
+.category-main .cat-filter-wrapper .filters-select {
+  color: #4e4e4e;
+  font-size: 15px;
+  font-family: HelveticaNeue;
+}
+
+.category-main .cat-filter-wrapper .filters-select {
+  border: none;
+  outline: none;
+}
+
+/* body */
+
+.isotope-items-wrap {
+  float: none;
+  margin: auto;
+  right: 0px;
+}
+
+.isotope-items-wrap .isotope-item {
+  margin-bottom: 70px;
+  /* cursor: pointer; */
+  margin: 0 15px 70px 15px;
+  /*  right: 0;*/
+  
+  float: left;
+  /*text-align: center;
+    left: initial;*/
+    
+}
+
+.isotope-items-wrap .isotope-item:hover {
+  opacity: 0.9;
+}
+
+.isotope-items-wrap .isotope-item img {
+  max-width: 330px;
+  max-height: 482px;
+   position: absolute;
+  /*right: 0px;*/
+  left: 0px;
+  /* top: 0px; */
+  /* bottom: 0px; */
+  margin-bottom: 25px;
+  margin: auto;
+}
+
+.isotope-items-wrap .isotope-item .badge {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: #141414;
+  font-size: 12px;
+  font-family: PoppinsMedium;
+}
+
+.isotope-items-wrap .isotope-item h5 {
+  color: #4e4e4e;
+  font-size: 16px;
+  /* font-family: HelveticaNeueMedium; */
+  margin-bottom: 5px;
+}
+
+.isotope-items-wrap .isotope-item p {
+  color: #4e4e4e;
+  font-size: 14px;
+  /* font-family: HelveticaNeue; */
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+/* Pagination */
+
+.isotope-pager {
+  text-align: center;
+  clear: both;
+}
+
+.isotope-pager a {
+  font-size: 16px;
+  margin: 0 10px;
+  color: #4e4e4e;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.isotope-pager a.active {
+  background: #bf905e;
+  /* padding: 10px 15px; */
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 50%;
+  color: #fff;
+}

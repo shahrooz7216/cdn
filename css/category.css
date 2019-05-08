@@ -1,0 +1,149 @@
+#category-page .navbar .navbar-brand {
+  color: #fff;
+}
+
+#category-page .navbar .navbar-nav > li > a:hover,
+#category-page .navbar .navbar-nav > li > a:focus:hover {
+  color: #fdcc52;
+}
+
+#category-page header .custome-h1 {
+  font-family: PoppinsBold;
+  letter-spacing: -3px;
+}
+
+#category-page header .custome-h1,
+#category-page header .custome-h6 {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55%;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+#category-page header .custome-h6 {
+  font-size: 19px;
+  color: #fff;
+  font-family: PoppinsSemiBold;
+  line-height: 55px;
+}
+
+#category-page header.masthead:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#category-page header.masthead:before {
+  top: 0;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+#category-page .navbar-extra .shop-btn {
+  color: #fff;
+}
+
+#category-page .navbar-extra .shop-btn:hover {
+  color: #c3c3c3;
+}
+
+#category-page .navbar .navbar-nav > li > a:hover,
+#category-page .navbar .navbar-nav > li > a:focus:hover,
+#category-page .navbar-extra .download-btn:hover {
+  color: #c3c3c3;
+}
+
+ #category-page header.masthead {
+  background-image: url(../img/category-bg.jpg);
+  height: auto;
+} 
+
+#category-page .category-main .cat-filter-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  z-index: 999;
+  margin-top: -23px;
+  border: none;
+}
+
+#category-page .category-dropdown {
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+#category-page .thumbnails {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 43%;
+  list-style: none;
+  margin-bottom: -50px;
+}
+
+#category-page .thumbnails img {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#category-page .thumbnails h6 {
+  font-size: 12px;
+  font-family: PoppinsMedium;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#category-page .thumbnails a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+#category-page .thumbnails ul {
+  max-width: 800px;
+  margin: auto;
+  /* padding: 0 50px; */
+  /* overflow: hidden; */
+  z-index: 1000;
+}
+
+#category-page .category-main .isotope-items-wrap .extra {
+  float: right;
+  margin-top: -75px;
+}
+
+#category-page .category-main .isotope-items-wrap .extra .like {
+  float: right;
+  margin-top: 25px;
+}
+
+#category-page .category-main .isotope-items-wrap .extra .like i {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#category-page .category-main .isotope-items-wrap .extra .comment {
+  float: right;
+  margin-right: 10px;
+  font-family: HelveticaNeueMedium;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.category-main .cat-filter-wrapper .filters-select {
+  left: -110px;
+}

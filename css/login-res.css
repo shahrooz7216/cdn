@@ -1,0 +1,367 @@
+/* ********************************************************************************************* */
+
+/* max width 400px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (max-width: 400px) {
+
+  #login-page .main {
+
+    min-height: 550px;
+
+  }
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/*  min-width 400px and max-width: 767px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (min-width: 400px) and (max-width: 767px) {
+
+  #login-page .main {
+
+    min-height: 650px;
+
+  }
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/* min width 768px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (min-width: 768px) {
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/* max width 767px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (max-width: 767px) {
+
+  #login-page .main .wrapper .login-box {
+
+    padding: 10% 6%; /*max-width: 325px;*/
+
+  }
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/* min width 992px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (min-width: 992px) {
+
+  #login-page .navbar {
+
+    padding-top: 15px;
+
+  }
+
+
+
+  #login-page .main {
+
+    min-height: 800px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box {
+
+    min-height: 506px;
+
+    /*width: 583px;*/
+
+    min-width: 328px;
+
+
+
+    width: 45.5%;
+
+  }
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/* max width 992px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (max-width: 991px) {
+
+  #login-page nav.navbar {
+
+    position: relative;
+
+    height: initial;
+
+    margin-bottom: 6px;
+
+  }
+
+
+
+  #login-page .navbar .navbar-brand {
+
+    letter-spacing: -1px;
+
+    top: 0;
+
+  }
+
+
+
+  #login-page .main {
+
+    background-image: url('../img/login-bg.jpg');
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+
+    width: 100%;
+
+    height: calc(100% - 65px);
+
+    padding: 0 15px;
+
+  }
+
+
+
+  #login-page .main .wrapper {
+
+    background: none;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .top-wrapper .login-btn,
+
+  #login-page .main .wrapper .login-box .top-wrapper .signup-btn {
+
+    font-size: 13px;
+
+    line-height: 18px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .middle-wrapper input::placeholder {
+
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+    font-size: 12px;
+
+    line-height: 17px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .middle-wrapper .signin {
+
+    font-size: 12px;
+
+    line-height: 18px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .middle-wrapper .forget {
+
+    font-size: 10px;
+
+    line-height: 14px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .middle-wrapper input {
+
+    padding: 10px 54px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .down-part a {
+
+    line-height: 17px;
+
+    font-size: 12px;
+
+    padding: 9px 0 14px;
+
+    margin-bottom: 3px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .down-part a.facebook i {
+
+    font-size: 21px;
+
+    top: 1px;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .down-part a.google img {
+
+    transform: scale(0.7);
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .middle-wrapper {
+
+    margin-bottom: 29%;
+
+  }
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/*  */
+
+/* ********************************************************************************************* */
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #login-page .main {
+
+    min-height: 700px;
+
+  }
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/* max width 1199px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (max-width: 1199px) {
+
+  #login-page .main .wrapper .login-box {
+
+    max-height: 600px;
+
+    min-height: 506px;
+
+
+
+    /*max-height: 506px;
+
+      min-height: 506px;
+
+
+
+      min-width: 328px;
+
+      max-width: 328px;
+
+
+
+      width: 328px;
+
+      height: 506px;*/
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box .middle-wrapper .password-wrapper i {
+
+    transform: scale(0.7);
+
+  }
+
+}
+
+
+
+/* ********************************************************************************************* */
+
+/* min width 1200px */
+
+/* ********************************************************************************************* */
+
+
+
+@media (min-width: 1200px) {
+
+  body#login-page .container {
+
+    max-width: 82%;
+
+  }
+
+
+
+  #login-page .main .wrapper .login-box {
+
+    max-height: 711px;
+
+  }
+
+}

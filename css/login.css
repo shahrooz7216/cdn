@@ -1,0 +1,419 @@
+body#login-page .container {
+
+  /* max-width: 82%;*/
+
+}
+
+
+
+#login-page .main {
+
+  height: 100%;
+
+  padding-bottom: 0;
+
+  padding-top: 29px;
+
+}
+
+
+
+#login-page .main > .container {
+
+  height: 100%;
+
+}
+
+
+
+#login-page .main .wrapper {
+
+  background-image: url(../img/login-bg.jpg);
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  -webkit-background-size: cover;
+
+  background-size: cover;
+
+  height: 100%;
+
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+
+
+#login-page .main .wrapper .login-box {
+
+  /*    background-color: #fff;
+
+
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+    left: 0;
+
+    bottom: 0;
+
+
+
+    margin: auto;
+
+    padding: 3% 5.5%;
+
+
+
+    height: 711px;
+
+    max-height: 711px;
+
+    min-height: 700px;
+
+
+
+    width: 583px;
+
+    max-width: 583px;
+
+    min-width: 500px;*/
+
+
+
+  background-color: #fff;
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  left: 0;
+
+  bottom: 0;
+
+  margin: auto;
+
+  padding: 3% 5.5%;
+
+  height: 85.5%;
+
+  /* min-height: 506px; */
+
+  max-width: 583px;
+
+  /* width: 45.5%; */
+
+  /* min-width: 328px; */
+
+}
+
+
+
+#login-page .main .wrapper .login-box form {
+
+  text-align: center;
+
+  margin: auto;
+
+  overflow: hidden;
+
+  position: relative;
+
+  height: 100%;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .top-wrapper {
+
+  margin-bottom: 16%;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .middle-wrapper {
+
+  /*margin-bottom: 34%;*/
+
+}
+
+
+
+#login-page .main .wrapper .login-box .top-wrapper .login-btn,
+
+#login-page .main .wrapper .login-box .top-wrapper .signup-btn {
+
+  border: none;
+
+  font-size: 19px;
+
+  line-height: 29px;
+
+  font-family: PoppinsMedium;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .top-wrapper .login-btn {
+
+  padding: 10px 28px;
+
+  color: #fff;
+
+  background-color: #dbc2a7;
+
+  border-radius: 23px;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .top-wrapper .signup-btn {
+
+  color: #000;
+
+  opacity: 0.5;
+
+  background: transparent;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .top-wrapper button {
+
+  margin: 0 10px;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .middle-wrapper input {
+
+  display: block;
+
+  margin: 0 auto 13px;
+
+  border: none;
+
+  background-color: #f7f8f9;
+
+  padding: 20px 54px;
+
+  width: 100%;
+
+  text-align: center;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .middle-wrapper .password-wrapper {
+
+  position: relative;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .middle-wrapper .password-wrapper i {
+
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  right: 21px;
+
+  width: 30px;
+
+  height: 17px;
+
+  background-image: url(../img/show-password-ico.png);
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  display: block;
+
+  margin: auto;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .middle-wrapper input::placeholder {
+
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+
+  font-family: PoppinsRegular;
+
+  line-height: 26px;
+
+  letter-spacing: -2;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .middle-wrapper .signin {
+
+  display: block;
+
+  margin: auto;
+
+  border: 1px solid #a7a7a7;
+
+  background-color: transparent;
+
+  padding: 10px 20px;
+
+  width: 100%;
+
+  color: #6d6d6d;
+
+  font-size: 18px;
+
+  font-family: PoppinsMedium;
+
+  line-height: 27px;
+
+  margin-bottom: 15px;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .middle-wrapper .forget {
+
+  display: block;
+
+  margin: auto;
+
+  font-size: 14px;
+
+  font-family: PoppinsRegular;
+
+  color: #bf905e;
+
+  line-height: 21px;
+
+  text-decoration: none;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .down-part {
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+
+
+  /*min-width: 287px;
+
+    width: 72%;
+
+    max-width: 417px;*/
+
+
+
+  margin: auto;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .down-part a {
+
+  line-height: 27px;
+
+  letter-spacing: 1px;
+
+  display: block;
+
+  margin-bottom: 10px;
+
+  font-size: 16px;
+
+  font-family: PoppinsMedium;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .down-part a.facebook {
+
+  color: rgba(255, 255, 255, 0.8);
+
+  background-color: #3b5998;
+
+  padding: 6px 0 15px;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .down-part a.google {
+
+  color: rgba(0, 0, 0, 0.6);
+
+  background-color: #eff1f3;
+
+  padding: 11px 0;
+
+}
+
+
+
+#login-page .main .wrapper .login-box .down-part a.facebook i {
+
+  font-size: 32px;
+
+  padding: 0 11px;
+
+  top: 7px;
+
+  position: relative;
+
+}
+
+
+
+#login-page section#features {
+
+  border: none !important;
+
+  margin-top: 0;
+
+  padding-top: 167px;
+
+}

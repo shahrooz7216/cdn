@@ -1,0 +1,76 @@
+#website4-page section#features {
+    margin-top: 260px;
+}
+
+#website4-page .main {
+    padding-bottom: 0;
+    padding-top: 175px;
+}
+
+#website4-page .main h1 {
+    font-family: PoppinsMedium;
+    font-size: 26px;
+    color: #000;
+    line-height: 31px;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+}
+
+#website4-page .main p {
+    font-size: 16px;
+    font-family: PoppinsLite;
+    line-height: 29px;
+    color: #727272;
+    max-width: 76%;
+    margin-bottom: 83px;
+}
+
+#website4-page .main .shop-icons {
+    font-size: 15px;
+    font-family: PoppinsRegular;
+    color: #818181;
+    line-height: 31px;;
+    letter-spacing: -1px;
+}
+
+#website4-page .main .shop-icons span {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+
+#website4-page .main .shop-icons span i {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 74px;
+    height: 63px;
+    display: inline-block;
+    display: block;
+    margin-bottom: 13px;
+}
+
+#website4-page .main .shop-icons span:nth-child(1) i {
+    background-image: url("../img/ico-1.png");
+}
+
+#website4-page .main .shop-icons span:nth-child(2) i {
+    background-image: url("../img/ico-2.png");
+}
+
+#website4-page .main .shop-icons span:nth-child(3) i {
+    background-image: url("../img/ico-3.png");
+}
+
+#website4-page .main .shop-icons span:nth-child(4) i {
+    background-image: url("../img/ico-4.png");
+}
+
+#website4-page .main img {
+    width: 714px;
+    height: 895px;
+
+    max-width: 100%;
+    height: auto;
+}
+
+

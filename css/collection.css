@@ -1,0 +1,136 @@
+#collection-page section#features {
+    margin-top: 10px;
+}
+
+#collection-page .main {
+    padding-bottom: 0;
+    padding-top: 175px;
+}
+
+#collection-page .main > .container > .row.title-part {
+    margin-bottom: 185px;
+}
+
+/* */
+
+#collection-page .main .title-part {
+
+}
+
+#collection-page .main .title-part h1 {
+    font-size: 45px;
+    font-family: PoppinsMedium;
+    color: #000;
+    line-height: 68px;
+    letter-spacing: -2px;
+}
+
+#collection-page .main .title-part p {
+    font-size: 20px;
+    font-family: PoppinsLite;
+    color: #4E4E4E;
+    line-height: 34px;
+    padding: 0 4%;
+}
+
+/* */
+
+#collection-page .main ul.collection-gallery-series-1 {
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li:hover {
+    opacity: 0.7;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li a {
+/*    position: relative;
+    height: 100%;
+    width: 100%;
+    display: block;*/
+}
+
+#collection-page .main ul.collection-gallery-series-1 li a:after {
+    content: "";
+    background-image: linear-gradient(to top, #000, rgba(48,48,48,0.63), rgba(255,255,255,0));
+    width: 100%;
+    height: 47%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li a img {
+    width: 100%;
+    height: auto;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li a .wrapper {
+    position: absolute;
+    bottom: 22px;
+    left: 40px;
+    font-family: poppinsMedium;
+    color: #fff;
+    z-index: 10;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li a .wrapper h3 {
+    display: inline-block;
+    letter-spacing: 0px;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li a .wrapper span {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#collection-page .main ul.collection-gallery-series-1 li .title {
+
+}
+
+#collection-page .main ul.collection-gallery-series-1 li .counter {
+
+}
+
+
+ /* li sizes */
+
+#collection-page .main ul.collection-gallery-series-1 li.small {
+    width: 473px; /* 466px; */
+    height: 100%;
+    width: calc(100% / 3 - 15px);
+}
+
+
+#collection-page .main ul.collection-gallery-series-1 li.medium {
+    width: 710px; /* 713px; */
+    height: 100%;
+    width: calc(100% / 2 - 15px);
+}
+
+
+#collection-page .main ul.collection-gallery-series-1 li.big {
+    width: 1490px;
+    height: 100%;
+    width: calc(100% - 15px);
+}
+
